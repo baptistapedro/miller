@@ -1,0 +1,6 @@
+project: miller
+target: miller
+
+# List of commands used to test the target
+cmds:
+  - cmd: /mlr --csv sort -f shape @@
